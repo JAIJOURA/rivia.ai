@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Table from './components/Table';
+import {HashRouter , Routes , Route} from "react-router-dom"
+import UserDetails from './components/UserDetails';
+
 
 function App() {
+const api = 'https://jsonplaceholder.typicode.com/users'
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <HashRouter>
+<div className='mx-5 my-5'>
+      <Routes>
+         <Route  exact path= '/' element={<Table api = {api}/>}/>
+         <Route  exact path= '/userID/:id' element={<UserDetails/>}/>
+
+
+
+      </Routes>
+    
+     </div>
+    </HashRouter>
   );
 }
 
