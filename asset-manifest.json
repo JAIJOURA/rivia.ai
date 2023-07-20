@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rivia.ai/static/css/main.073c9b0a.css",
+    "main.js": "/rivia.ai/static/js/main.0b3ef6c7.js",
+    "static/js/787.41afb228.chunk.js": "/rivia.ai/static/js/787.41afb228.chunk.js",
+    "index.html": "/rivia.ai/index.html",
+    "main.073c9b0a.css.map": "/rivia.ai/static/css/main.073c9b0a.css.map",
+    "main.0b3ef6c7.js.map": "/rivia.ai/static/js/main.0b3ef6c7.js.map",
+    "787.41afb228.chunk.js.map": "/rivia.ai/static/js/787.41afb228.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0b3ef6c7.js"
+  ]
+}
